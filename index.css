@@ -12,13 +12,23 @@ ul{
 h1{
     color: hotpink;
     text-align: center;
+    font-size: 3cm;
 }
 .instagram{
     width: 10px;
     text-align: left;
+    font-size: larger;
+    color: mediumblue;
 }
 a{
    font-family: 'Times New Roman', Times, serif;
-   font-size: large;
+   font-size: 1cm;
    color: green;
+   text-align: center;
+}
+#sve{
+    border: 5px solid red;
+}
+p{
+    text-align: center;
 }
