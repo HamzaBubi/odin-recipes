@@ -2,10 +2,15 @@
 line-height: 1.5;
 text-align: center;
 background-color: rgb(228, 214, 210);
-margin: 5px;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: brown;
 }
 ul{
     list-style: none;
@@ -16,19 +21,22 @@ h1{
     font-size: 3cm;
 }
 .instagram{
+    display: inline;
     width: 10px;
     text-align: left;
+    vertical-align: bottom;
     font-size: larger;
     color: mediumblue;
 }
 a{
-   font-family: 'Times New Roman', Times, serif;
+   display: inline;
+    font-family: 'Times New Roman', Times, serif;
    font-size: 1.1cm;
    background-color: chocolate;
-color: cyan;
+color: rgb(255, 255, 255);
 text-decoration: none;
-margin: 20px, auto;
-padding: 10px 12px 10px 12px;
+margin: 50px, auto;
+padding: 6px 10px 6px 10px;
   
 }
 #sve{
@@ -36,11 +44,4 @@ padding: 10px 12px 10px 12px;
 }
 p{
     text-align: center;
-}
-.link {
-background-color: chocolate;
-color: cyan;
-text-decoration: none;
-margin: 20px auto;
-padding: 10px 12px 10px 12px;
 }
